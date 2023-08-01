@@ -45,9 +45,9 @@ debounce-release-ms = <30>;
                 &trans  &kp LEFT &kp DOWN &kp RIGHT &trans  &trans                 &trans &kp LEFT &kp DOWN &kp RIGHT &trans  &trans
                 &trans  &trans   &trans   &trans.   &trans  &trans                 &trans &trans   &trans   &trans    &trans  &trans
                                  &kp K_VOL_UP   &kp K_VOL_DN                              &trans   &trans
-                                              &trans &kp C_AC_SEARCH                      &trans &mo ADJ
-                                              &trans &trans                               &trans &trans
-                                              &trans &trans                               &trans &trans
+                                              &trans &kp C_AC_SEARCH               &trans &mo ADJ
+                                              &trans &trans                        &trans &trans
+                                              &trans &trans                        &trans &trans
             >;
         };
 
@@ -58,9 +58,9 @@ debounce-release-ms = <30>;
                 &trans  &trans &trans &trans &trans &trans                &trans &kp LEFT &kp DOWN &kp RIGHT &trans &kp K_VOL_DN
                 &trans  &trans &trans &trans &trans &trans                &trans &trans   &trans   &trans    &trans &kp K_MUTE
                                &trans &trans                                              &kp C_PREV  &kp C_NEXT
-                                             &mo ADJ &trans               &trans &trans
-                                             &trans  &trans               &trans &trans
-                                             &trans  &trans               &trans &trans
+                                             &mo ADJ &trans               &kp C_AC_SEARCH &trans
+                                             &trans  &trans               &trans          &trans
+                                             &trans  &trans               &trans          &trans
             >;
         };
 
