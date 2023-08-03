@@ -44,7 +44,7 @@ debounce-release-ms = <30>;
                 &kp F6  &kp F7 &kp F8   &kp UP   &kp F10   &kp F11                 &trans &trans   &kp UP   &trans    &trans  &trans
                 &trans  &trans &kp LEFT &kp DOWN &kp RIGHT &trans                  &trans &kp LEFT &kp DOWN &kp RIGHT &trans  &trans
                 &trans  &trans &trans   &trans   &trans    &trans                  &trans &trans   &trans   &trans    &trans  &trans
-                                 &kp K_VOL_UP   &kp K_VOL_DN                              &trans   &trans
+                               &kp K_VOL_UP   &kp K_VOL_DN                                &trans   &trans
                                               &trans &kp C_AC_SEARCH               &trans &mo ADJ
                                               &CAPS  &trans                        &trans &trans
                                               &trans &trans                        &trans &trans
