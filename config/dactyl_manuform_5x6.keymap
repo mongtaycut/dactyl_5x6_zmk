@@ -34,7 +34,7 @@ debounce-release-ms = <30>;
                                  &kp LBKT &kp RBKT                                      &kp MINUS &kp PLUS
                                             &mo LWR  &kp SPACE            &kp RET  &mo RSE
                                             &kp LGUI &kp LALT             &kp RALT &kp RGUI
-                                            &kp CAPS &kp GRAVE            &kp HOME &kp END
+                                            &kp BSPC &kp GRAVE            &kp HOME &kp END
             >;
         };
 
@@ -46,7 +46,7 @@ debounce-release-ms = <30>;
                 &trans  &trans &trans   &trans   &trans    &trans                  &trans &trans   &trans   &trans    &trans  &trans
                                  &kp K_VOL_UP   &kp K_VOL_DN                              &trans   &trans
                                               &trans &kp C_AC_SEARCH               &trans &mo ADJ
-                                              &trans &trans                        &trans &trans
+                                              &CAPS  &trans                        &trans &trans
                                               &trans &trans                        &trans &trans
             >;
         };
